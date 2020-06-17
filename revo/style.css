@@ -1,0 +1,270 @@
+/*
+Theme Name: revo
+Theme URI: http://murren.ru/templates/WP/revo/demo/
+Author: VK
+Author URI: http://murren.ru/templates/WP/silvana/demo/
+Description: Revo Studio - Multipurpose WordPress Theme
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, featured-images, sticky-post, threaded-comments
+Text Domain: revo
+*/
+
+.line {
+    text-align: center;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+.sticky  h2{
+    color: #ff4f52 !important;
+}
+
+.gallery-caption {
+    color: #707070;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 7px 0;
+}
+.bypostauthor {
+    width: 100%;
+}
+.aligncenter {
+    display:block;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.tp-bgimg {
+    background-size: cover !important;
+    background-position: center top !important;
+}
+
+.archive  .masthead-inner {
+    background-position: center center !important;
+}
+.main_dark {
+    background: #1f1f1f;
+}
+
+/*WP formatting*/
+.alignleft {
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+.alignright {
+
+    float:right;
+    margin-right: 0px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.aligncenter {
+    display:block;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*img:not([class])*/
+
+
+
+.post-entry dl , .section-add-comment dl    {
+    margin: 0 20px;
+}
+.post-entry dd , .section-add-comment dd{
+    margin: 0 0 20px;
+}
+
+.post-entry  ul:not([class])  li  ,  .section-add-comment   ul:not([class])  li{
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 2em;
+    list-style-position: inside;
+    text-indent: -1em;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.post-entry  ul:not([class]) ,  .section-add-comment  ul:not([class])   {
+    list-style-type: disc;
+    list-style-position:outside;
+    margin-right: 1px;
+    margin-left: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.post-entry   ol:not([class]), .section-add-comment   ol:not([class]) {
+    list-style-type: decimal;
+    list-style-position:outside;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+
+
+}
+.content   ol:not([class])  li , .section-add-comment  ol:not([class])  li {
+    list-style-type: decimal;
+    margin: 0;
+    padding-left: 2em;
+    list-style-position: inside;
+    text-indent: -1em;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+.social {
+    position: relative;
+    z-index:50;
+}
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin:1em auto 1em auto;}
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+.youtube_video {
+    border: 0px;
+}
+.logged-in .navbar.affix{
+    top: 32px;
+}
+img {
+    max-width: 100%;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+
+.custom .tp-bullet:hover, .custom .tp-bullet.selected {
+	    background: #67d5b5;
+}
+
+.custom .tp-bullet, .custom2 .tp-bullet {
+    width: 8px !important; 
+    height: 8px !important;
+    position: absolute;
+    border: 2px solid #67d5b5 !important;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}	
+
+ .tp-bullet {
+    width: 12px !important; 
+    height: 12px !important;
+}
+
+
+.hesperiden.tparrows:before {
+    line-height: 50px;
+    color: #67d5b5;
+}
+
+.hesperiden.tparrows {
+	width: 50px;
+        height: 50px;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.hesperiden.tparrows:hover {
+	transition: 0.5s;
+	background-color: rgba(14,14,14,0.9);
+}
+
+
+
+.logged-in .js-navbar-affix.slideInDown {
+    top: 32px !important;
+
+}
+
+.post-one_js {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
